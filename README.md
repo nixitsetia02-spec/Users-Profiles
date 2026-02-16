@@ -1,1 +1,1 @@
-Restructured databasse is of users
+Restructured database is of users
