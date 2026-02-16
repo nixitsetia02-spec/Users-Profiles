@@ -1,4 +1,4 @@
-ADMIN DA DATABASE
+ADMIN KA DATABASE
 CREATE TABLE admin_data.admin_users (
     admin_id SERIAL PRIMARY KEY,
     email_id TEXT UNIQUE NOT NULL,
@@ -32,4 +32,5 @@ CREATE TABLE admin_data.login (
         FOREIGN KEY (user_id)
         REFERENCES admin_data.sign_up(user_id)
         ON DELETE CASCADE
+
 );
