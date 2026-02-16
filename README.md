@@ -1,4 +1,3 @@
-Restructured database is of users
 1st Database of Gamepost,gamepost admin
 2nd Database of admin
 3rd Database of users
